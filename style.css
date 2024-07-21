@@ -26,13 +26,50 @@ body{
 }
 
 .container {
-    background-color: var(--White);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
+.card {
+    background-color: var(--White);
+    margin: 30px 20px;
+    border-radius: 12px;
+}
+    .card img{
+        width: 100%;
+        border-radius: 12px 12px 0px 0px;
+    }
+
+.card__info{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+}
+    .card__info h2{
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 6px;
+    }
+    .card__info h1{
+        font-family: "Fraunces", serif;
+        font-weight: 700;
+        font-size: 36px;
+    }
+    .card__info p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        padding-right: 12px;
+    }
 
 .attribution {
-    font-size: 11px; text-align: center; 
+    font-size: 11px; text-align: center;
+    background-color: whitesmoke;
 }
+
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
