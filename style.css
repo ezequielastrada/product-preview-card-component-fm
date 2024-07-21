@@ -45,7 +45,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 20px;
+    padding: 26px;
 }
     .card__info h2{
         font-weight: 500;
@@ -62,7 +62,6 @@ body{
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
-        padding-right: 12px;
     }
 
 .attribution {
